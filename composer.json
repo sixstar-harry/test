@@ -1,0 +1,21 @@
+{
+    "name": "harry/test",
+    "description": "test packagist",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "harry",
+            "email": "sixstar@edu.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Package\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    }
+}
